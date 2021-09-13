@@ -1,0 +1,38 @@
+.icon {
+    margin-top: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+  .row{
+      display:flex;
+      flex-direction: row;
+     
+  }
+.button{
+    margin-right:5px
+}
+.delete-button{
+    color:red;
+}
+.users-data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.table{
+    width:80vw;
+}
+.table .ant-table-tbody > tr.ant-table-row-selected > td {
+    background-color: lightgray;
+}
+.delete-selected{
+    background-color: red;
+    color: seashell;
+    border:none;
+    outline:none;
+    margin-bottom:20PX ;
+    height:30px;
+    border-radius:10px;
+}
